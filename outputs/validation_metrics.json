@@ -1,0 +1,34 @@
+{
+  "cross_validation": {
+    "roc_auc": 0.9428571428571428,
+    "average_precision": 0.8666666666666668,
+    "f1": 0.6666666666666666,
+    "precision": 0.7,
+    "recall": 0.7
+  },
+  "stats_tests": {
+    "temp_t_stat": 0.6079970137641817,
+    "temp_t_p": 0.5586850104238941,
+    "anova_f_stat": NaN,
+    "anova_f_p": NaN
+  },
+  "spatial_metrics": {
+    "mean_centroid_shift_km": NaN,
+    "median_centroid_shift_km": NaN
+  },
+  "gps_quality": {
+    "points": 528.0,
+    "individuals": 6.0,
+    "species": 1.0,
+    "missing_lat": 0.0,
+    "missing_lon": 0.0
+  },
+  "climate_quality": {
+    "rows": 56784.0,
+    "missing_temp": 0.0,
+    "missing_humidity": 0.0,
+    "missing_precip": 0.0,
+    "temp_min": -6.464202880859375,
+    "temp_max": 14.983306884765625
+  }
+}

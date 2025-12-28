@@ -1,0 +1,41 @@
+{
+  "run_timestamp": "2025-12-22T22:27:44.644764+00:00",
+  "config": {
+    "data_dir": "climate_refugia/data",
+    "outputs_dir": "outputs",
+    "heat_threshold_default_c": 35.0,
+    "heat_window_hours": 3,
+    "clustering_eps_km": 2.0,
+    "clustering_min_samples": 5,
+    "model_random_state": 42,
+    "model_n_estimators": 300,
+    "model_max_depth": 12,
+    "time_tolerance_minutes": 60,
+    "auto_threshold_quantile": 0.9
+  },
+  "inputs": {
+    "gps_path": "climate_refugia/data/movebank_events.parquet",
+    "gps_sha256": "36776719463036143e11bc4b4fb6eac0b47a85c4e9a37651babc9e628016a673",
+    "gps_size_bytes": 17822,
+    "climate_path": "climate_refugia/data/era5_combined.parquet",
+    "climate_sha256": "542b04aaf9778ad833f87089b851300c7b5088573991de48155d6fa2180c7f68",
+    "climate_size_bytes": 769022
+  },
+  "package_versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "scipy": "1.13.1",
+    "statsmodels": "0.14.2",
+    "xarray": "2024.6.0",
+    "netCDF4": "1.7.1",
+    "cdsapi": "0.7.0",
+    "plotly": "5.22.0",
+    "folium": "0.17.0",
+    "streamlit": "1.36.0"
+  },
+  "git": {
+    "commit": "unknown",
+    "dirty": "unknown"
+  }
+}

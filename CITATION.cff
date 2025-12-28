@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Climate Refugia Identification and Prediction"
+version: "0.1.0"
+authors:
+  - family-names: "Thiru"
+    given-names: "Mukund"
+abstract: "End-to-end pipeline to identify thermal refugia from animal movement and climate data and project future refugia under climate scenarios."
+license: "MIT"
